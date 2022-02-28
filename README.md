@@ -38,6 +38,7 @@
 ### Next possible steps for improvement
 * Introduce data-driven tests by using external data source such as csv/excel etc.
 * Optimize further by using features such as Fixtures, Hooks, Annotations etc. wherever possible.
+* Enhance reporting by integrating 3rd party reporting such as Allure or Extent Report.
 
 
 
