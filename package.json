@@ -1,0 +1,19 @@
+{
+  "name": "sampletestframework",
+  "version": "1.0.0",
+  "description": "Test Framework for Quandoo assignments",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium --reporter=html",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox --reporter=html",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit --reporter=html",
+    "tests:ui": "playwright test --config=playwright.config.ts --project=UI --reporter=html",
+    "tests:api": "playwright test --config=playwright.config.ts --project=API --reporter=html"
+  },
+  "author": "Premangshu Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
